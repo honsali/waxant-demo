@@ -1,0 +1,91 @@
+{
+  "name": "waxant-demo",
+  "version": "1.1.0",
+  "description": "Demo Of Waxant, The Wafa Extension for Ant Design",
+  "keywords": [
+    "waxant",
+    "react",
+    "component",
+    "components",
+    "ui-components",
+    "antd",
+    "ant",
+    "design",
+    "framework",
+    "frontend",
+    "react-component",
+    "ui"
+  ],
+  "author": "Ilia Honsali <honsali@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honsali/waxant-demo.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ant-design/charts": "^2.0.3",
+    "@ant-design/icons": "^5.3.5",
+    "@react-keycloak/web": "^3.4.0",
+    "@reduxjs/toolkit": "^2.2.2",
+    "antd": "^5.15.4",
+    "antd-mask-input": "^2.0.7",
+    "axios": "^1.6.8",
+    "axios-oauth-client": "^2.0.4",
+    "base-64": "^1.0.0",
+    "craco-less": "^3.0.1",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.10",
+    "keycloak-js": "^24.0.2",
+    "lodash": "^4.17.21",
+    "print-js": "^1.6.0",
+    "qs": "^6.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-quill": "^2.0.0",
+    "react-redux": "^9.1.0",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-simple-keyboard": "^3.7.105",
+    "redux": "^5.0.1",
+    "styled-components": "^6.1.8",
+    "typescript": "^5.4.3",
+    "waxant": "^1.1.7"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/jest": "^29.5.12",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.12.2",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
+    "@types/react-redux": "^7.1.33",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development &&   craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
