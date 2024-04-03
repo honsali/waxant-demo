@@ -1,6 +1,6 @@
 {
   "name": "waxant-demo",
-  "version": "1.1.0",
+  "version": "1.1.8",
   "description": "Demo Of Waxant, The Wafa Extension for Ant Design",
   "keywords": [
     "waxant",
@@ -50,7 +50,7 @@
     "redux": "^5.0.1",
     "styled-components": "^6.1.8",
     "typescript": "^5.4.3",
-    "waxant": "^1.1.7"
+    "waxant": "^1.1.8"
   },
   "devDependencies": {
     "@craco/craco": "^7.1.0",

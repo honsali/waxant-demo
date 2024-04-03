@@ -9,4 +9,5 @@ const ViewListerNotification = () => {
         </Section>
     );
 };
+
 export default ViewListerNotification;

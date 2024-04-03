@@ -20,7 +20,7 @@ const App = () => {
         () => ({
             appName: 'DEMO_APP',
             locale: 'fr',
-            formatDate: 'MM/DD/YYYY',
+            formatDate: 'DD/MM/YYYY',
             apiTimeout: 50000,
             keycloakConfig: null, //keycloakConfig,
             theme: theme,
@@ -45,4 +45,5 @@ const App = () => {
         </WaxantApp>
     );
 };
+
 export default App;

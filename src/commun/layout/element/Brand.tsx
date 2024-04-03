@@ -9,19 +9,9 @@ const SBrand = styled(Row)`
 
 const Title = styled(Col)`
     padding: 14px 20px 13px 20px;
-`;
-
-const Sin = styled.span`
     color: ${(props) => props.theme.token.colorPrimary};
     font-size: 30px;
     font-weight: 700;
-    font-family: 'ROBOTO';
-`;
-
-const Corpo = styled.span`
-    color: ${(props) => props.theme.token.colorWarning};
-    font-size: 30px;
-    font-weight: 300;
     font-family: 'ROBOTO';
 `;
 
@@ -30,18 +20,7 @@ const NoTitle = styled(Col)`
 `;
 
 const Brand = ({ opened, toggle }) => {
-    return (
-        <SBrand>
-            {opened ? (
-                <Title>
-                    <Sin>DEMO</Sin>
-                    <Corpo>WAXANT</Corpo>
-                </Title>
-            ) : (
-                <NoTitle />
-            )}
-        </SBrand>
-    );
+    return <SBrand>{opened ? <Title>DEMO-WAXANT</Title> : <NoTitle />}</SBrand>;
 };
 
 export default Brand;

@@ -40,4 +40,5 @@ const MapperPagination = {
     creerPageableRequetePage,
     creerPaginationSurListe,
 };
+
 export default MapperPagination;

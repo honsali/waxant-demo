@@ -14,4 +14,5 @@ const RoutesChefProjet = [];
 RoutesChefProjet.push(...RoutesCommun());
 RoutesChefProjet.push(...RoutesProjet());
 RoutesChefProjet.push(<Route key="100" index element={<PageAccueilChefProjet />} />);
+
 export default RoutesChefProjet;

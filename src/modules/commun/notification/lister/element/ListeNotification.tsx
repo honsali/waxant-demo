@@ -72,4 +72,5 @@ const ListeNotification = () => {
         </SNotificationListe>
     );
 };
+
 export default ListeNotification;
