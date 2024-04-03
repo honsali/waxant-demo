@@ -30,21 +30,7 @@ const Toggle = styled(Col)`
         }
     }
 `;
-
-const AppName = styled.div`
-    z-index: 100;
-    position: fixed;
-    bottom: 0px;
-    .title {
-        text-align: center;
-        width: 250px;
-        font-weight: bold;
-        font-size: 18px;
-        background-color: #f50;
-        color: #fff;
-        padding: 8px 0px;
-    }
-`;
+ 
 
 const LayoutSidebar = () => {
     const [opened, setOpened] = useState(true);
@@ -85,10 +71,7 @@ const LayoutSidebar = () => {
                 <SSider collapsible collapsed={collapsed} width={250} trigger={null}>
                     <Brand opened={opened} toggle={toggle} />
                     <SeparateurGradient></SeparateurGradient>
-                    <Menu />
-                    <AppName>
-                        <div className="title">GESTION</div>
-                    </AppName>
+                    <Menu /> 
                 </SSider>
             </Col>
             <Toggle>{opened ? <MenuFoldOutlined onClick={toggle} /> : <MenuUnfoldOutlined onClick={toggle} />}</Toggle>

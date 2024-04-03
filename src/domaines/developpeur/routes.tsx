@@ -14,4 +14,5 @@ const RoutesDeveloppeur = [];
 RoutesDeveloppeur.push(...RoutesCommun());
 RoutesDeveloppeur.push(...RoutesProjet());
 RoutesDeveloppeur.push(<Route key="201" index element={<PageAccueilDeveloppeur />} />);
+
 export default RoutesDeveloppeur;

@@ -13,4 +13,5 @@ const RoutesCommun = () => {
     map.push(<Route key="cm_ln" path="/notification" element={<PageListerNotification />} />);
     return map;
 };
+
 export default RoutesCommun;

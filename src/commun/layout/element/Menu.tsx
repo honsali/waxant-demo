@@ -74,4 +74,5 @@ const Menu = () => {
 
     return <SMenu>{MenuComponent ? <MenuComponent /> : null}</SMenu>;
 };
+
 export default Menu;

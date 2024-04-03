@@ -29,4 +29,5 @@ const ActionModifierProjet = ({ form }) => {
 
     return <PopupConfirmation {...attributes} rid={rid}></PopupConfirmation>;
 };
+
 export default ActionModifierProjet;
